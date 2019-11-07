@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/ocean</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/ocean</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="android:textColorHint">@color/black_60</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="materialButtonStyle">@style/Test.Button.Colored</item>
+        <item name="toolbarStyle">@style/Test.Toolbar</item>
+        <item name="android:alertDialogTheme">@style/AppTheme.Dialog</item>
+    </style>
+
+    <style name="AppTheme.Light">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/ocean</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="toolbarStyle">@style/Test.Toolbar.Light</item>
+    </style>
+
+    <style name="AppTheme.Transparent">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/ocean</item>
+        <item name="colorControlNormal">@color/black</item>
+        <item name="toolbarStyle">@style/Test.Toolbar.Transparent</item>
+    </style>
+
+    <style name="DefaultNumberPickerTheme" parent="AppTheme">
+        <item name="colorControlNormal">#99000000</item>
+        <item name="android:textSize">19.6sp</item>
+        <item name="android:textColor">#26000000</item>
+    </style>
+
+    <style name="AppTheme.Dialog" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:buttonBarButtonStyle">@style/Test.Button.TextButton</item>
+    </style>
+</resources>

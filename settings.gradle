@@ -1,0 +1,4 @@
+rootProject.name='InstabugApp'
+include ':app'
+include ':domain'
+include ':presentation:main'

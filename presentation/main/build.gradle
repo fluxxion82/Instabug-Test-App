@@ -1,0 +1,31 @@
+apply plugin: 'example-lib.android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'androidx.navigation.safeargs.kotlin'
+
+android {
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdkVersion 26
+        testInstrumentationRunnerArguments clearPackageData: 'true'
+    }
+    aaptOptions {
+        // Prevents the appt tool from inflating PNG files that have already been compressed
+        cruncherEnabled = false
+    }
+    packagingOptions {
+        pickFirst("META-INF/atomicfu.kotlin_module")
+    }
+}
+
+dependencies {
+    implementation project(':domain')
+
+    implementation Libs.appcompat
+    implementation Libs.archExtensions
+    implementation Libs.archViewModel
+    implementation Libs.liveData
+    implementation Libs.archNavigation
+    implementation Libs.archNavigationFragment
+    implementation Libs.constraintLayout
+    implementation Libs.preference
+}

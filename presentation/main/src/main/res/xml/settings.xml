@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.PreferenceScreen
+        android:icon="@drawable/ic_support"
+        android:title="@string/support"
+        android:fragment="com.example.android.instabugapp.ui.homescreen.settings.support.SupportFragment"
+        >
+    </androidx.preference.PreferenceScreen>
+
+</androidx.preference.PreferenceScreen>

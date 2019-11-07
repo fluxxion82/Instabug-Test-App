@@ -1,0 +1,46 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_font_size">16dp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="card_resting_elevation">2dp</dimen>
+    <dimen name="notification_elevation">12dp</dimen>
+
+    <dimen name="spacing_rounded_button">3dp</dimen>
+    <dimen name="spacing_hard_rounded_button">50dp</dimen>
+    <dimen name="rounded_switch_background">4dp</dimen>
+    <dimen name="spacing_line_button">2dp</dimen>
+
+    <dimen name="status_label_row">19dp</dimen>
+    <dimen name="status_label_row_container">38dp</dimen>
+    <dimen name="breathwave_height">200dp</dimen>
+
+    <dimen name="width_progress">96dp</dimen>
+
+    <dimen name="global_edge_size">24dp</dimen>
+    <dimen name="shadow_adjusted_edge_size">16dp</dimen>
+
+    <!-- List Row -->
+    <dimen name="default_card_elevation">15dp</dimen>
+    <dimen name="list_item_button_size">28dp</dimen>
+    <dimen name="list_item_small_height">56dp</dimen>
+    <dimen name="list_item_image_elevation">8dp</dimen>
+    <dimen name="list_item_height">96dp</dimen>
+    <dimen name="list_item_text_container_height">58dp</dimen>
+    <dimen name="list_card_radius">0dp</dimen>
+    <dimen name="list_item_image_size">56dp</dimen>
+    <dimen name="list_header_image_size">76dp</dimen>
+    <dimen name="list_item_image_circular_card_radius">28dp</dimen>
+    <dimen name="group_heading_vertical_padding">5dp</dimen>
+    <dimen name="list_item_separation_spacing">10dp</dimen>
+    <dimen name="list_seperator_height">1dp</dimen>
+    <!-- 3x list_item_height + 2dp for dividers -->
+    <dimen name="list_preview_height_3x">290dp</dimen>
+    <!-- 2x list_item_height + 1dp for dividers -->
+    <dimen name="list_preview_height_2x">193dp</dimen>
+    <!-- 1x list_item_height -->
+    <dimen name="list_preview_height_1x">96dp</dimen>
+
+</resources>

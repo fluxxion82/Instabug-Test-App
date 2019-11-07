@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="statistics_secondary_progress">#E5F1F4</color>
+    <color name="statistics_progress">#28A5BF</color>
+
+    <color name="divider">#e3e3e3</color>
+
+    <color name="dialog_title">#de000000</color>
+    <color name="dialog_message">#99000000</color>
+
+    <color name="black">#000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_87">#de000000</color>
+    <color name="black_32">#51000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#676767</color>
+    <color name="dark_grey">#4a4a4a</color>
+    <color name="light_grey">#e3e3e3</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="ocean">#007891</color>
+    <color name="scarlet">#b00020</color>
+</resources>
+

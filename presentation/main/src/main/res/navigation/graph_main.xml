@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_main"
+    app:startDestination="@id/homeScreenRootFragment">
+
+    <fragment
+        android:id="@+id/homeScreenRootFragment"
+        android:name="com.example.android.instabugapp.ui.homescreen.HomeRootFragment"
+        android:label="HomeScreenRootFragment"
+        tools:layout="@layout/fragment_root">
+
+    </fragment>
+
+</navigation>

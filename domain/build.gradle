@@ -1,0 +1,5 @@
+apply plugin: 'example-lib.kotlin'
+
+dependencies {
+    api Libs.threeTenABP
+}

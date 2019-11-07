@@ -1,0 +1,66 @@
+<resources>
+    <!-- General/Shared -->
+    <string name="app_name">Test Instabug App</string>
+    <string translatable="false" name="preference_file_key">com_test_preferences</string>
+
+    <string translatable="false" name="__whitney_book">WhitneySSm-Book-Adv.otf</string>
+    <string translatable="false" name="__whitney_medium">WhitneySSm-Medium-Adv.otf</string>
+    <string translatable="false" name="__whitney_semibold">WhitneySSm-Semibold-Adv.otf</string>
+
+    <string name="settings">Settings</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="delete">Delete</string>
+    <string name="select">Select</string>
+    <string name="welcome">Welcome!</string>
+    <string name="or">Or</string>
+    <string name="empty" />
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="okay">OKAY</string>
+
+
+    <!-- Screen titles -->
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+
+    <!--Login/signUp flow-->
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_first_name">First Name</string>
+
+    <string name="use_your_email">Use your email</string>
+    <string name="send_email">Send Email</string>
+    <string name="create_account">Create Account</string>
+
+    <string name="use_minimum_8_characters">Use a minimum of 8 characters</string>
+    <string name="invalid_email">Please use a valid email address</string>
+    <string name="invalid_password">The password should contain at least 8 characters</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <!-- Home -->
+
+    <!--Dialogs-->
+
+
+    <!--Buttons-->
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="action_undo">UNDO</string>
+
+    <!-- Settings -->
+    <string name="support">Support</string>
+    <string name="support_send_diagnostic_report">Send diagnostic report</string>
+
+</resources>
